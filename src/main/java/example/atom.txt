@@ -1,0 +1,33 @@
+scenario: {
+    map: {
+        source: "the/path/of/map/source"
+    },
+    weather: "sunny",
+    actors: [
+        {
+            name: "car1",
+            speed: 30,
+            x: 2,
+            y: 5
+        },
+        {
+            name: "car2",
+            speed: 50,
+            heading
+            x: 4,
+            y: 6
+        }
+
+
+    ],
+    behaviors: {
+        "car1": {
+            ["guard1"] "A" -> "B",
+            ["guard2"] "B" -> "C"
+        },
+        "car2": {
+            ["guard3"] "A" -> "D",
+            ["guard4"] "B" -> "C"
+        }
+    }
+}
